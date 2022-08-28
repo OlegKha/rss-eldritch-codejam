@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eldritch-codejam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<section class="game-content">
+    <div class="game-content__container">
+        <div class="ancient-pick">
+            <div class="ancient-pick__item azatoth">
+                <img class="ancient-pick__img" src="assets/Ancients/Azathoth.png" alt="azatoth">
+            </div>
+            <div class="ancient-pick__item cthulhu">
+                <img class="ancient-pick__img" src="assets/Ancients/Cthulthu.png" alt="cthulhu">
+            </div>
+            <div class="ancient-pick__item yog-sothoth">
+                <img class="ancient-pick__img" src="assets/Ancients/IogSothoth.png" alt="yog-sothoth">
+            </div>
+        </div>
+        <div class="difficult-selection">
+            <div class="difficult-selection__item">Easy</div>
+            <div class="difficult-selection__item">Medium</div>
+            <div class="difficult-selection__item">Hard</div>
+        </div>
+        <div class="deck-board">
+            <div class="phases">
+                <div class="phases__stage stage">
+                    <div class="stage__item">
+                        <h2 class="stage__title">First stage</h2>
+                        <div class="stage__counters counters">
+                            <div class="counters__green">0</div>
+                            <div class="counters__red">0</div>
+                            <div class="counters__blue">0</div>
+                        </div>
+                    </div>
+                    <div class="stage__item">
+                        <h2 class="stage__title">Second stage</h2>
+                        <div class="stage__counters counters">
+                            <div class="counters__green">0</div>
+                            <div class="counters__red">0</div>
+                            <div class="counters__blue">0</div>
+                        </div>
+                    </div>
+                    <div class="stage__item">
+                        <h2 class="stage__title">Third stage</h2>
+                        <div class="stage__counters counters">
+                            <div class="counters__green">0</div>
+                            <div class="counters__red">0</div>
+                            <div class="counters__blue">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shuffle-button">Shuffle</div>
+        <div class="deck-cover">
+            <img src="assets/mythicCardBackground.png" alt="deck-bg">
+        </div>
+        <div class="reveal-place"></div>
+    </div>
+</section>
+</body>
+<script src="index.js"></script>
+</html>
