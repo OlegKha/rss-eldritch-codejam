@@ -1,3 +1,63 @@
+.game-content {
+  height: 100vh;
+}
+.game-content__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.ancient-pick__img {
+  width: 200px;
+  height: 260px;
+}
+
+.difficult-selection__item {
+  margin-bottom: 10px;
+  color: darkred;
+  padding: 15px 35px;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+
+.stage__title {
+  color: darkred;
+}
+.counters {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  color: aliceblue;
+}
+.counters__green {
+  padding: 20px 25px;
+  background-color: green;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.counters__red {
+  padding: 20px 25px;
+  background-color: red;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.counters__blue {
+  padding: 20px 25px;
+  background-color: blue;
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.shuffle-button {
+  padding: 15px 35px;
+  background-color: burlywood;
+  border-radius: 10px;
+  color: darkred;
+}
+
+.deck-cover img {
+  width: 200px;
+  height: 260px;
+}
 
 /*# sourceMappingURL=index.css.map */

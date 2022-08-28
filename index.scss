@@ -1,0 +1,106 @@
+body {
+
+}
+.game-content {
+  //background: url("../home.png") no-repeat 0 0/contain;
+  height: 100vh;
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.ancient-pick {
+  &__item {
+  }
+}
+
+.azatoth {
+
+}
+
+.cthulhu {
+
+}
+
+.yog-sothoth {
+
+}
+
+.ancient-pick__img {
+  width: 200px;
+  height: 260px;
+}
+
+.difficult-selection {
+  &__item {
+    margin-bottom: 10px;
+    color: darkred;
+    padding: 15px 35px;
+    background-color: burlywood;
+    border-radius: 10px;
+  }
+}
+
+.deck-board {
+}
+
+.phases {
+  &__stage {
+  }
+}
+
+.stage {
+  &__item {
+  }
+
+  &__title {
+    color: darkred;
+  }
+
+  &__counters {
+  }
+}
+
+.counters {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  color: aliceblue;
+  &__green {
+    padding: 20px 25px;
+    background-color: green;
+    display: inline-flex;
+    border-radius: 50%;
+  }
+
+  &__red {
+    padding: 20px 25px;
+    background-color: red;
+    display: inline-flex;
+    border-radius: 50%;
+  }
+
+  &__blue {
+    padding: 20px 25px;
+    background-color: blue;
+    display: inline-flex;
+    border-radius: 50%;
+  }
+}
+
+.shuffle-button {
+  padding: 15px 35px;
+  background-color: burlywood;
+  border-radius: 10px;
+  color: darkred;
+}
+
+.deck-cover img{
+  width: 200px;
+  height: 260px;
+}
+
+.reveal-place {
+}
